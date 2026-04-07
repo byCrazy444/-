@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="icon" href="../images/istanbul-hagia.jpg">
+    <script src="../js/script.js"></script>
+    <title>Контакты туриста в Стамбуле</title>
+</head>
+
+<body>
+
+    <header>
+        <a class="site-logo" href="../index.html" aria-label="Главная">TRAVEL ISTANBUL</a>
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../pages/index.html">План поездки</a>
+            <a href="../pages/о городе.html">О городе</a>
+            <a href="../pages/достопримечательности.html">Места</a>
+            <a href="../pages/контакты.html">Контакты</a>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">&#8942;</button>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="section-title">Полезные контакты для туриста</h1>
+
+            <div class="row">
+                <div class="col-50">
+                    <div class="contacte">
+                        <h2 class="centered">Экстренные и справочные службы</h2>
+                        <b>Единый номер экстренной помощи:</b>
+                        <a href="tel:112">112</a>
+                        <br/><br/>
+
+                        <b>Туристическая справка:</b>
+                        <a href="mailto:info@goturkiye.com">info@goturkiye.com</a>
+                        <br/><br/>
+
+                        <b>Муниципальный портал Стамбула:</b>
+                        <a href="https://www.ibb.istanbul" target="_blank" rel="noopener noreferrer">ibb.istanbul</a>
+                        <br/><br/>
+
+                        <b>Аэропорт IST:</b>
+                        <a href="https://www.istairport.com" target="_blank" rel="noopener noreferrer">istairport.com</a>
+                        <br/><br/>
+
+                        <b>Туристическая полиция:</b>
+                        <a href="tel:155">155</a>
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <form class="cform">
+                        <h2 class="centered">Задать вопрос перед поездкой</h2>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Ваш email" required>
+                        <textarea rows="5" placeholder="Ваш вопрос о маршруте, транспорте или проживании" required></textarea>
+                        <input type="submit" value="Отправить вопрос">
+                        <p id="contact-result">Мы ответим на указанный email.</p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="info-block">
+                <h2>Частые вопросы</h2>
+                <div class="faq-list">
+                    <details>
+                        <summary>Нужна ли наличка в Стамбуле?</summary>
+                        <p>Лучше иметь небольшую сумму в TRY для мелких покупок, рынков и транспорта.</p>
+                    </details>
+
+                    <details>
+                        <summary>Какой район выбрать для первой поездки?</summary>
+                        <p>Чаще всего выбирают Султанахмет или Бейоглу из-за близости к основным локациям.</p>
+                    </details>
+
+                    <details>
+                        <summary>Сколько дней оптимально на первое знакомство?</summary>
+                        <p>Минимум 3 дня, а комфортный вариант — 4-5 дней.</p>
+                    </details>
+                </div>
+            </div>
+
+            <iframe class="harta"
+                src="https://www.google.com/maps?q=Istanbul&output=embed"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <span>Туристический гид по Стамбулу · <span class="footer-year">2026</span></span>
+    </footer>
+</body>
+
+</html>
